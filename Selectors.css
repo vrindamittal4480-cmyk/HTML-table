@@ -1,0 +1,21 @@
+/* UNIVERSAL SELECTOR - it is applied to whole content of the page*/
+*{
+    COLOR: BLUE;
+    background-color: aqua;
+}
+/* element Selector-it is applied to an element */
+h1{
+    background-color: yellow;
+}
+/* id selector - it is applied specifically to a unique line*/
+#heading1 {
+    color: rgb(9, 84, 34);
+}
+#heading2{
+    color:rgb(166, 5, 155);
+}
+/* always give id to one element if u have to change more than one then use class selector */
+/* class selector */
+.myclass{
+    color:rgb(255, 0, 0);
+}
