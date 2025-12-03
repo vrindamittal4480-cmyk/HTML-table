@@ -1,0 +1,29 @@
+div{
+    background-color: rgb(64, 255, 0);
+    display: inline-block;  
+    /*if we set diplay to inline then its top and bottom margin is not set and also its height and width can not be set*/
+    /* if we want to set top and bottom margin and other properties then we can use inline block */
+    margin: 25px;
+    padding:25px;
+    height: 100px;
+    width:  100px;
+}
+button{
+    display:block;
+    margin: 60px;
+} 
+#div1{
+    background-color:rgba(255,0,0,0.2);
+    /* colour become light due to alpha value(a) ist value is set between 0 and 1 */
+    
+}
+#div2{
+    background-color: rgba(255, 0, 0,0.6);
+    /* visibility:hidden; */
+    /* display:none; */
+    /* if we set it to nonne then that box will be remove from doccument and also there is no space reserved for it in the doccument box 3 will take the place of box 2 */
+    /* but if we have done visibility to hidden then there is space reserved for it */
+}
+#div3{
+    background-color: rgba(255, 0, 0, 1);
+}
