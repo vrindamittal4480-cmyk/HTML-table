@@ -1,0 +1,39 @@
+H1{
+    text-align: center;
+    text-decoration: overline;
+    line-height:20px;
+}
+P{
+    TEXT-ALIGN: center; /* START=LEFT , END=RIGHT (FOR english and hindi) but for urdu it is oppossite*/
+    text-decoration: underline;
+    font-family:Arial ;
+    font-size: 30 px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+/* BODY{
+    text-align: center;
+} */
+h2{
+    text-align: center;
+    text-decoration:blue wavy line-through;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*we can use more thant font family because each web browse accept diff fonts*/
+}
+/*most imp use of text decoration is in anchor tag to remove underline  */
+a{
+    text-decoration: none;
+    font-size: 50px;
+}
+#heading1{
+    font-weight: bolder;
+}
+#heading2{
+    font-weight: 100;
+}
+#heading3{
+    font-weight: 450;
+}
+#heading4{
+    font-weight: 700;
+}
