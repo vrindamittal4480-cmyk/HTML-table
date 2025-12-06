@@ -1,0 +1,44 @@
+h1{
+    color:red;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+div{
+    margin-left:10px;   
+    height:550px;
+    width:450px;
+    background-color: rgb(241, 232, 190);
+    text-align: center;
+    margin-left:30px;
+    border: 2px, solid, red;
+    border-radius: 30px;
+    padding-top: 20px;
+    display:inline-block;
+    vertical-align: top;
+    /* here if we dont use vertical align then my cards are unevenly ordered because inline block always align by baseline not by top so we have to use either vertical or by flex */
+}
+#h2{
+    font-size: 30px;
+    color:blue;
+    font-weight: 400px;
+}
+#description{
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    font-weight: 900px;
+}
+#price{
+    color:rgb(239, 6, 177);
+    font-size: 25px;
+    font-weight: 900;
+}
+button{
+    background-color: rgb(255, 255, 0);
+    color: rgb(202, 8, 8);
+    font-weight: 600px;
+    font-size: 16px;
+}
+body{
+    background-color: rgb(162, 181, 181);
+}
