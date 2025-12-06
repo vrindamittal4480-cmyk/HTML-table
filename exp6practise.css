@@ -1,0 +1,40 @@
+h1{
+    color:red;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+div{
+    height:550px;
+    width:450px;
+    background-color: rgb(248, 239, 217);
+    text-align: center;
+    margin-left:530px;
+    border: 2px, solid, red;
+    border-radius: 30px;
+    padding-top: 20px;
+}
+#h2{
+    font-size: 30px;
+    color:blue;
+    font-weight: 400px;
+}
+#description{
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    font-weight: 900px;
+}
+#price{
+    color:rgb(239, 6, 177);
+    font-size: 30px;
+    font-weight: 900;
+}
+button{
+    background-color: rgb(255, 255, 0);
+    color: rgb(202, 8, 8);
+    font-weight: 600px;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(172, 169, 163);
+}
